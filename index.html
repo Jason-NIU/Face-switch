@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Face-switch : Face switch is an application aimed for helping paralyzed people to use computers">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Face-switch</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Jason-NIU/Face-switch">View on GitHub</a>
+
+          <h1 id="project_title">Face-switch</h1>
+          <h2 id="project_tagline">Face switch is an application aimed for helping paralyzed people to use computers</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Jason-NIU/Face-switch/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Jason-NIU/Face-switch/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="face-switch" class="anchor" href="#face-switch" aria-hidden="true"><span class="octicon octicon-link"></span></a>FACE SWITCH</h3>
+
+<p><img src="https://raw.githubusercontent.com/Jason-NIU/Face-switch/master/screenshots/app.jpg" alt="Screenshot">
+Development environment:
+Eclipse Luna, JDK 8u40, Win7</p>
+
+<h2>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview</h2>
+
+<p>The face switch is an application that transforms predefined facial gestures to specific keyboard keystrokes. The program is intended to help computer users with limited mobility from the neck down but who have a good level of control of facial muscles.
+The software is intended to be used in combination with the Tobii PCEye Go eye tracker (<a href="http://www.tobii.com/en/assistive-technology/global/products/hardware/pceye/">http://www.tobii.com/en/assistive-technology/global/products/hardware/pceye/</a>) and Tobii's accessibility software for computer controlled through gaze: Tobii Gaze Interaction Software 2.6.2. (<a href="http://www.tobii.com/en/assistive-technology/global/products/hardware/pceye/support-downloads/">http://www.tobii.com/en/assistive-technology/global/products/hardware/pceye/support-downloads/</a>)
+The program uses the Beyond Reality Face Tracker SDK (<a href="https://www.beyond-reality-face.com/)to">https://www.beyond-reality-face.com/)to</a> track facial landmark features (lips, eyebrows, face contour etc.) from which it infers face gestures invariant to head position.</p>
+
+<p>The user can select how many gestures the software monitors from 1 to 4 by selecting the check boxes on the left of each gesture name. However, as the number of gestures to be recognized increases, the number of false positives detection during computer interaction increases. We have noted differences among people, with different users getting different degrees of performance for different gestures.</p>
+
+<p>The user can map each gesture to a specific keystroke. By clicking on the drop-down menu of the list of options associated to each gesture, the user can select common keys such as page down or F12 (default switch used by the Tobii Gaze Interaction Software). For customize situations, any keyboard key can be pressed since the drop-down menu is editable.</p>
+
+<p>The user can adjust the sensitivity of the program by moving the slide below the drop-down menu. Values closer to 0 make gestures detection more likely but it also increments the false detection rate.</p>
+
+<p>If the face tracker loses accurate tracking of facial landmarks, the user should exit and reenter the field of view of the camera for restarting the face tracking engine.</p>
+
+<p>If performance degrades over time, the user should press the calibration button to restart the distance theresholds between landmark points used for gesture detection.</p>
+
+<p>If the user wishes to pause the program, there is a corresponding button to do so.</p>
+
+<p>Mappings and sensitivity values can be reset with the corresponding button.</p>
+
+<p>A user can save a specific set of gesture mapping to keystrokes by pressing the button save. In a later session, clicking the button load restores the active gestures, mappings and sensitivity values previously saved.</p>
+
+<p>For facial gestures are permitted:</p>
+
+<p>-Opening mouth: the gesture is completed by opening and closing the mouth.
+<img src="https://raw.githubusercontent.com/Jason-NIU/Face-switch/master/screenshots/open.png" alt="Opened mouth"></p>
+
+<p><img src="https://raw.githubusercontent.com/Jason-NIU/Face-switch/master/screenshots/normal.png" alt="Closed mouth"></p>
+
+<p>-Raising eyebrows: the gesture is completed by raising the eyebrows and dropping them afterwards.
+<img src="https://raw.githubusercontent.com/Jason-NIU/Face-switch/master/screenshots/rising%20eyebrow.png" alt="Raising eyebrows"></p>
+
+<p>-Smile: the gesture is completed by generating a simple smile with the lips.
+<img src="https://raw.githubusercontent.com/Jason-NIU/Face-switch/master/screenshots/smile.png" alt="smile"></p>
+
+<p>-Snarling: the gesture is completed by making a nose twitch.</p>
+
+<p><img src="https://raw.githubusercontent.com/Jason-NIU/Face-switch/master/screenshots/nose.png" alt="Snarling"></p>
+
+<p>Below you can find a video that illustrates the performance of the system.</p>
+
+<p>Demo 1 for typing test         <a href="http://youtu.be/DXKa6hj2uFg">http://youtu.be/DXKa6hj2uFg</a><br>
+Demo 2 for browsing webpages   <a href="http://youtu.be/0vOrGOliwR8">http://youtu.be/0vOrGOliwR8</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Face-switch maintained by <a href="https://github.com/Jason-NIU">Jason-NIU</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
