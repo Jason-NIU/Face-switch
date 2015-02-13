@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="liblsl-Java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_40"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_25/jre/lib/ext/jna-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/workspace/liblsl-ALL-languages-1.10.2/LSL/liblsl-Java"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_25/jre/lib/ext"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_25/jre/lib/controlsfx-8.20.8.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
