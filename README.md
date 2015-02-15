@@ -18,7 +18,7 @@ The user can adjust the sensitivity of the program by moving the slide below the
 
 If the face tracker loses accurate tracking of facial landmarks, the user should exit and reenter the field of view of the camera for restarting the face tracking engine.
 
-If performance degrades over time, the user should press the calibration button to restart the distance theresholds between landmark points used for gesture detection.
+If performance degrades over time, the user should press the calibration button to restart the distance thresholds between landmark points used for gesture detection.
 
 If the user wishes to pause the program, there is a corresponding button to do so.
 
