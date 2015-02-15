@@ -49,8 +49,8 @@ Below you can find a video that illustrates the performance of the system.
 ### Video Demonstration
 
 Demo 1 for typing test         http://youtu.be/DXKa6hj2uFg   
-<iframe width="420" height="315"
-src="http://youtu.be/DXKa6hj2uFg">
-</iframe>
+[![Alt text for your video](http://img.youtube.com/vi/DXKa6hj2uFg/0.jpg)](http://youtu.be/DXKa6hj2uFg)
+
+
 
 Demo 2 for browsing webpages   http://youtu.be/0vOrGOliwR8
