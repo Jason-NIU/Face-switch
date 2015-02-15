@@ -48,9 +48,13 @@ Below you can find a video that illustrates the performance of the system.
 
 ### Video Demonstration
 
-Demo 1 for typing test         http://youtu.be/DXKa6hj2uFg   
-[![Alt text for your video](http://img.youtube.com/vi/DXKa6hj2uFg/0.jpg)](http://youtu.be/DXKa6hj2uFg)
+Demo 1 for typing test           
+[![DEMO 1](http://img.youtube.com/vi/DXKa6hj2uFg/0.jpg)](http://youtu.be/DXKa6hj2uFg)
 
+http://youtu.be/DXKa6hj2uFg 
 
+Demo 2 for browsing webpages   
 
-Demo 2 for browsing webpages   http://youtu.be/0vOrGOliwR8
+[![DEMO 2](http://img.youtube.com/vi/0vOrGOliwR8/0.jpg)](http://youtu.be/0vOrGOliwR8)
+
+http://youtu.be/0vOrGOliwR8
