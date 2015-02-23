@@ -12,7 +12,7 @@ import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import javafx.scene.control.Slider;
 import javafx.event.EventHandler;
-import edu.ucsd.sccn.LSL;
+
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.application.Application;
@@ -703,11 +703,12 @@ class server_data implements Runnable{
 	            incoming = socket.accept(); 
 	            //Creating data stream for Lab streaming layer, if you use facial data for cleanning up EEG singal, keep it
 	            printOut = new PrintStream(incoming.getOutputStream()); 
-	            printOut.println("Enter EXIT to exit.\r"); 
+	            printOut.println("Enter EXIT to exit.\r"); /*
 	            System.out.println("Creating a new StreamInfo...");
 	            LSL.StreamInfo info = new LSL.StreamInfo("Facial_data","EEG",136,100,LSL.ChannelFormat.float32,"myuid324457");
 	            System.out.println("Creating an outlet...");
 	            LSL.StreamOutlet outlet = new LSL.StreamOutlet(info);
+	            */
 	            System.out.println("Sending data...");
 	            String[] substring=new String[136];
 	            sample = new float[136];
@@ -1011,10 +1012,10 @@ class server_data implements Runnable{
 	            			System.out.println("Output errors through nose detection");
 	            			}
 	            	frame++;
-	            	outlet.push_sample(sample);
+	            	//outlet.push_sample(sample);
 	            } 
-	            outlet.close();								//Close lab streaming layer
-	            info.destroy();
+	          //  outlet.close();								//Close lab streaming layer
+	          //  info.destroy();
 	        } 
 	        catch (Exception e){ 
 	            System.out.println(e.toString()); 
