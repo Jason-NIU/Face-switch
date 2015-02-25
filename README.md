@@ -68,6 +68,6 @@ For users, there are four simple steps:
 
 2. Download the compiled version of our application, it's located in the fold called Compiled version.
 
-3. After users finished the prior two steps, all they need is run the start.bat in the fold, which will execute all relevant programes for users
+3. After users finished the prior two steps, all they need is run the start.bat in the fold, which will execute all related programes for users
 
 4. Enjoy it.
