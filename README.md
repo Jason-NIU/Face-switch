@@ -65,6 +65,9 @@ http://youtu.be/0vOrGOliwR8
 
 For users, there are four simple steps:
 1. Users need download the JDK8u40 from https://jdk8.java.net/download.html, and install it
+
 2. Download the compiled version of our application, it's located in the fold called Compiled version.
+
 3. After users finished the prior two steps, all they need is run the start.bat in the fold, which will execute all relevant programes for users
+
 4. Enjoy it.
