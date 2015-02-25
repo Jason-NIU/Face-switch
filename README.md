@@ -4,7 +4,7 @@
 Development environment:
 Eclipse Luna, JDK 8u40,Beyond Reality Face SDK, Tobii Eye tracker PCEye Go, Win7
 
-Running Requirement:: JDK 8u40 version, you can download it from here https://jdk8.java.net/download.html
+Running Requirement: JDK 8u40 version, you can download it from here https://jdk8.java.net/download.html
 
 ## Overview
 The face switch is an application that transforms predefined facial gestures to specific keyboard keystrokes. The program is intended to help computer users with limited mobility from the neck down but who have a good level of control of facial muscles.
@@ -60,3 +60,11 @@ Demo 2 for browsing webpages
 [![DEMO 2](http://img.youtube.com/vi/0vOrGOliwR8/0.jpg)](http://youtu.be/0vOrGOliwR8)
 
 http://youtu.be/0vOrGOliwR8
+
+## How to use it
+
+For users, there are four simple steps:
+1. Users need download the JDK8u40 from https://jdk8.java.net/download.html, and install it
+2. Download the compiled version of our application, it's located in the fold called Compiled version.
+3. After users finished the prior two steps, all they need is run the start.bat in the fold, which will execute all relevant programes for users
+4. Enjoy it.
