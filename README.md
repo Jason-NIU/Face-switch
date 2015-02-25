@@ -64,6 +64,7 @@ http://youtu.be/0vOrGOliwR8
 ## How to use it
 
 For users, there are four simple steps:
+
 1. Users need download the JDK8u40 from https://jdk8.java.net/download.html, and install it
 
 2. Download the compiled version of our application, it's located in the fold called Compiled version.
